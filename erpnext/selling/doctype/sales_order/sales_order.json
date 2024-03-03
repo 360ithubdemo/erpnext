@@ -26,6 +26,7 @@
   "company",
   "skip_delivery_note",
   "amended_from",
+  "custom_razorpay_payment_url",
   "accounting_dimensions_section",
   "cost_center",
   "dimension_col_break",
@@ -1651,13 +1652,18 @@
    "no_copy": 1,
    "options": "Not Requested\nRequested\nPartially Paid\nFully Paid",
    "print_hide": 1
+  },
+  {
+   "fieldname": "custom_razorpay_payment_url",
+   "fieldtype": "Data",
+   "label": "Razorpay Payment url"
   }
  ],
  "icon": "fa fa-file-text",
  "idx": 105,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-03-03 17:13:55.947164",
+ "modified": "2024-03-03 18:19:54.957209",
  "modified_by": "Administrator",
  "module": "Selling",
  "name": "Sales Order",

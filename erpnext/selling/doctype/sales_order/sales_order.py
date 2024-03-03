@@ -91,6 +91,7 @@ class SalesOrder(SellingController):
 		cost_center: DF.Link | None
 		coupon_code: DF.Link | None
 		currency: DF.Link
+		custom_razorpay_payment_url: DF.Data | None
 		customer: DF.Link
 		customer_address: DF.Link | None
 		customer_group: DF.Link | None
